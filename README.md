@@ -1,4 +1,4 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 # TransferWise Python
 Python client library for the TransferWise API
@@ -23,8 +23,10 @@ This repo uses same code as [Django Code of Conduct] based on the [Open Code of 
 
 
 ## License
-This work is licensed under the **GNU v3 Public License**. See the
+This work is licensed under **BSD 3-Clause License**. See the
 [LICENSE](./LICENSE) for details.
+
+
 
 
 [Serhat Teker]: https://github.com/serhatteker
