@@ -5,8 +5,12 @@ import os
 import requests
 
 
+def get_token(key='API_TOKEN'):
+    return os.getenv(key, default=None)
+
+
 def basic_get_rate():
-    API_TOKEN = os.getenv(key="API_TOKEN", default=None)
+    API_TOKEN = get_token()
     url = "https://api.sandbox.transferwise.tech/v1/rates?source=EUR&target=USD"
     session = requests.Session()
     session.headers.update(
