@@ -29,7 +29,7 @@ Getting Started
 Prerequisites
 -------------
 
-* Python 3.x
+* Python >= 3.5
 
 
 Installing
